@@ -1,0 +1,19 @@
+# Build
+fizzbuzz
+
+# OS X
+.DS_Store
+
+# Emacs recovery files
+*~
+[#]*[#]
+.\#*
+
+# frp recovery files
+*.frp.bak
+
+# Object files
+*.o
+
+# Debug files
+*.dSYM/
