@@ -1,0 +1,6 @@
+{
+  "name": "FizzBuzz",
+  "tagline": "A FizzBuzz written in C",
+  "body": "# FizzBuzz\r\n\r\nThis program solves the prompt:\r\n\r\n> Write a program that prints the integers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.\r\n\r\n# Compiling\r\n\r\nCompile with `./configure && make && sudo make install`.\r\n\r\n# Getting Started\r\n\r\n```\r\n$ fizzbuzz\r\n```\r\n\r\n# License\r\n\r\nCopyright (c) 2016 Maxwell Zhao <thepiercingarrow@gmail.com>.\r\n\r\nThis project is licensed under GPLv3. Read [LICENSE.txt](LICENSE.txt) for more details.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
