@@ -1,8 +1,10 @@
 PREFIX ?= /usr/local/bin
 BUILD = fizzbuzz
 
-all: src/main.c
-	gcc src/main.c -O2 -o $(BUILD)
+all: $(BUILD)
+
+$(BUILD): src/main.c
+	gcc src/main.c -O2 -o $@
 install: $(BUILD)
 	mv $(BUILD) $(PREFIX)
 uninstall: $(PREFIX)/$(BUILD)
