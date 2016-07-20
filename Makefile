@@ -6,7 +6,7 @@ all: $(BUILD)
 $(BUILD): src/main.c
 	gcc src/main.c -O2 -o $@
 install: $(BUILD)
-	mv $(BUILD) $(PREFIX)
+	link $(BUILD) $(PREFIX)
 uninstall: $(PREFIX)/$(BUILD)
 	rm $<
 clean: $(BUILD)
